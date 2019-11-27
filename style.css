@@ -38,11 +38,11 @@ body {
     justify-content: space-around;
     background: rgba(13, 16, 16, 0.66);
     backdrop-filter: blur(88px);
-    background: url('/img/Новая\ папка/.header-shape');
+    background: url('img/Новая\ папка/.header-shape');
 }
 
 .logo {
-    background: url('/img/logo-index\ 1.png');
+    background: url('img/logo-index\ 1.png');
     position: absolute;
     width: 119px;
     height: 35px;
