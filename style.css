@@ -48,6 +48,15 @@ body {
     height: 35px;
     left: 61px;
     top: 23px;
+    cursor: pointer;
+}
+.logo:hover {
+    left: 1px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 .drop-down {
     position: absolute;
@@ -78,7 +87,20 @@ body {
     top: 5%;
     bottom: 35.83%;
 }
-
+.btn-down:hover {
+    color: red;
+    background-color: #F10048;
+    transition:1s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
 .number {
     position: absolute;
     width: 121px;
@@ -213,8 +235,35 @@ top: 293px;
     background: #F10048;
     box-shadow: 0px 7px 64px rgba(241, 0, 72, 0.66);
     border: 0px;
+    cursor: pointer;
 }
 
+.btn:hover {
+    color:red;
+    background-color: #431E27;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    border-radius:30px;
+    -webkit-transform: 1s;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+}
+.menu:hover {
+    color:red;
+    background-colo;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    border-radius:30px;
+    -webkit-transform: 1s;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
 .s {
     position: absolute;
     width: 46px;
